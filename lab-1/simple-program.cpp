@@ -9,12 +9,12 @@ int main () {
     // cout << "Okai Yeboah" << endl;
     
     // Q2. 
-    /*
+  
     int numbers[5];
     int numbers_size = sizeof(numbers) / sizeof(numbers[0]);
     
     map<string, int> numbers_with_occurrence;
-
+    
     for (int i = 0; i < numbers_size; i++) {
         cout << "Please enter number: ";
         cin >> numbers[i];
@@ -53,10 +53,10 @@ int main () {
     sort(numbers, numbers + numbers_size);
     int half_numbers_size = numbers_size / 2;
     cout << "Median: " << numbers[half_numbers_size] << endl;
-    */
+   
 
     // Q3.
-    
+    /*  
     int num;
     cout << "Please enter a number: ";
     cin >> num;
@@ -81,7 +81,6 @@ int main () {
             dividend++;
         }
     }
-        
-
+   */
     return 0;
 }
